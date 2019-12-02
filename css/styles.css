@@ -1,0 +1,66 @@
+/**************** TAG SELECTORS ****************/
+
+body {
+  background-color: #A8E7FF;
+  font-family: sans-serif;
+}
+
+hr {
+  border-top: 5px;
+  border-color: #00000025;
+  border-style: none;
+  border-top-style: dotted;
+  width: 10%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: #55505C;
+}
+
+p {
+color: #5D737E;
+}
+
+tr{
+  color: #5D737E;
+}
+
+th{
+  color:#55505C;
+}
+
+a:link, a:visited {
+  color: #55505C;
+}
+
+table{
+  border: none;
+}
+
+
+/**************** CLASS SELECTORS ****************/
+.menu-item{
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: 700;
+  border-right: solid;
+  border-right-width: 1px;
+  border-color: #00000050;
+}
+
+.menu-item:hover, .menu-item:active {
+  background-color: #ffffff;
+  text-decoration: none;
+}
+.menu-item:active {
+  background-color: white;
+}
+
+.active {
+  background-color: #ffffff85;
+}
+
+.vl {
+  border-left: 1px solid #00000050;
+  height: 30px;
+}
